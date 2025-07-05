@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/E-Commerce/static/css/main.ab7d252f.css",
+    "main.css": "/E-Commerce/static/css/main.5e7f792e.css",
     "main.js": "/E-Commerce/static/js/main.75aa9b52.js",
     "static/js/453.64b3d2e2.chunk.js": "/E-Commerce/static/js/453.64b3d2e2.chunk.js",
     "static/media/p6.png": "/E-Commerce/static/media/p6.27961517da1b7e7d12f8.png",
@@ -33,12 +33,12 @@
     "static/media/p7.png": "/E-Commerce/static/media/p7.0ef160903e15a4154f5a.png",
     "static/media/logoBooknanda.png": "/E-Commerce/static/media/logoBooknanda.e1c598ec1193963c688f.png",
     "index.html": "/E-Commerce/index.html",
-    "main.ab7d252f.css.map": "/E-Commerce/static/css/main.ab7d252f.css.map",
+    "main.5e7f792e.css.map": "/E-Commerce/static/css/main.5e7f792e.css.map",
     "main.75aa9b52.js.map": "/E-Commerce/static/js/main.75aa9b52.js.map",
     "453.64b3d2e2.chunk.js.map": "/E-Commerce/static/js/453.64b3d2e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab7d252f.css",
+    "static/css/main.5e7f792e.css",
     "static/js/main.75aa9b52.js"
   ]
 }
