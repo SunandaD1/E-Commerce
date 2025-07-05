@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <Router basename="/E-Commerce">
+        <Router>
           <NavScroll></NavScroll>
           <Routes>
               <Route path="/" element={<Shop></Shop>} />
