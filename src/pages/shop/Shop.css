@@ -1,0 +1,106 @@
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+
+.shopTitle {
+  margin-top: 100px; /* controls the distance between title and navbar */
+  text-align: center;
+  margin-bottom: 25px; /* controls the distance between search bar and filters */
+  font-size: 40px;
+}
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 300px;
+    min-height: 350px;
+    height: auto;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 250px;
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.searchbar {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "IBM Plex Serif", serif;
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+  margin-top: 10px;
+
+}
+
+.filters button {
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 10px;
+
+}
+
+.filters button.filter-active {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
